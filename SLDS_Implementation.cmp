@@ -1,0 +1,121 @@
+<aura:component >
+  	<div class="slds-container_large slds-container_center">
+      
+           <div class="slds-border_bottom" >
+               
+           <ul class="slds-list_horizontal slds-has-block-links_space
+                      slds-text-title_caps
+                      slds-border_bottom
+                      slds-m-bottom_medium
+                      slds-m-top_medium">
+           <li>
+               <a href="#"><b>Home</b></a>
+           </li>
+           <li>
+               <a href="#"><b>Contact US</b></a>
+           </li>
+           <li>
+               <a href="#"><b>Details</b></a>
+           </li>
+           </ul>
+               
+           </div>
+        <!--image after horizontal list start -->
+        <!--in back ground we need image -->
+        <div> 
+          <!-- this akso cordct -->
+        <!--lightning:avatar style="height:400px;width:100%"
+          src="{!$Resource.auraImage}" alternativeText="John Smith"/-->
+            <img style="height:230px;width:100%"  
+                    src="{!$Resource.auraImage}" alternativeText="No image found"/>
+            
+            
+        </div>
+        <div class="slds-is-absolute "
+                    style="top:170px;left:200px; color:lightgray; ">
+           <div class="slds-text-heading_large">
+                       
+               <b>Complete Slds Implementation</b>
+            </div>
+            <div class="slds-m-top_medium slds-m-bottom_medium" style="width:300px;">
+                <p>Refer backend code any time when u need SLDS 
+                    reference happy slds learning --</p>
+            </div>
+        </div>
+        <!--Who are we area-->
+     <div>
+         <div class="slds-text-heading_large slds-text-align_center
+                     slds-m-top_large ">
+             <b>Who are we ??</b>
+         </div>
+        </div>
+          <!--Who are we end-->
+        <!--product desc start -->
+        <!-- based on device handle and use some class -->
+        <div class="slds-grid slds-wrap  slds-m-around_medium 
+                    ">
+            <div class="slds-col slds-m-around_small
+                        slds-large-size_3-of-12
+                        slds-medium-size_6-of-12
+                        slds-small-size_12-of-12">
+               <!--project1 handler-->
+                <div class="
+                            slds-m-top_medium
+                            slds-p-around_medium
+                            slds-m-left_medium" style="background:lightblue" >
+                    <b> Product1</b>
+                </div>
+               <div class="slds-m-left_medium slds-p-around_medium"  style="background:white" >
+                   <p> Hi this is the 1st product <br/>created by Slds
+                       <br/> we can use this at any event <br/> cool bye</p>
+                </div>
+            </div>
+            <div class="slds-col slds-m-around_small
+                        slds-large-size_3-of-12
+                        slds-medium-size_6-of-12
+                        slds-small-size_12-of-12">
+                 <div class=" 
+                            slds-m-top_medium
+                            slds-p-around_medium
+                            slds-m-left_medium" style="background:lightblue" >
+                       <b> Product1</b>
+                </div>
+               <div class="slds-m-left_medium slds-p-around_medium"  style="background:white" >
+                   <p> Hi this is the 1st product <br/>created by Slds
+                       <br/> we can use this at any event <br/> cool bye</p>
+                </div>
+            </div>
+            <div class="slds-col  slds-m-around_small slds-large-size_3-of-12
+                        slds-medium-size_6-of-12
+                        slds-small-size_12-of-12">
+                 <div class="
+                            slds-m-top_medium
+                            slds-p-around_medium
+                            slds-m-left_medium" style="background:lightblue" >
+                        <b> Product1</b>
+                </div>
+               <div class="slds-m-left_medium slds-p-around_medium"  style="background:white" >
+                   <p> Hi this is the 1st product <br/>created by Slds
+                       <br/> we can use this at any event <br/> cool bye</p>
+                </div>
+             </div>
+            <div class="slds-col slds-m-around_small slds-large-size_3-of-12
+                        slds-medium-size_6-of-12
+                        slds-small-size_12-of-12">
+                 <div class=" 
+                            slds-m-top_medium
+                            slds-p-around_medium
+                            slds-m-left_medium" style="background:lightblue" >
+                        <b> Product1</b>
+                </div>
+               <div class="slds-m-left_medium slds-p-around_medium"  style="background:white" >
+                   <p> Hi this is the 1st product <br/>created by Slds
+                       <br/> we can use this at any event <br/> cool bye</p>
+                </div>
+            </div>
+        </div>
+         <!--product desc start end -->
+        
+    </div><!--container end -->
+   
+</aura:component>
